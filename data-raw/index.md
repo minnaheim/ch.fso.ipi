@@ -1,4 +1,21 @@
 
 ## Index of Time Series in ch.fso.ipi
 
-
+- [idx_2020](csv/idx_2020.csv)
+- [idx_2003.d12.kof](csv/idx_2003.d12.kof.csv)
+- [idx_2015.d12.kof](csv/idx_2015.d12.kof.csv)
+- [idx_2010.d12.kof](csv/idx_2010.d12.kof.csv)
+- [idx_1963](csv/idx_1963.csv)
+- [idx_2015](csv/idx_2015.csv)
+- [idx_1993.d12.kof](csv/idx_1993.d12.kof.csv)
+- [idx_2003](csv/idx_2003.csv)
+- [idx_2020.d11.kof](csv/idx_2020.d11.kof.csv)
+- [idx_2003.d11.kof](csv/idx_2003.d11.kof.csv)
+- [idx_2020.d12.kof](csv/idx_2020.d12.kof.csv)
+- [idx_1993](csv/idx_1993.csv)
+- [idx_2010](csv/idx_2010.csv)
+- [idx_2015.d11.kof](csv/idx_2015.d11.kof.csv)
+- [idx_1963.d11.kof](csv/idx_1963.d11.kof.csv)
+- [idx_2010.d11.kof](csv/idx_2010.d11.kof.csv)
+- [idx_1963.d12.kof](csv/idx_1963.d12.kof.csv)
+- [idx_1993.d11.kof](csv/idx_1993.d11.kof.csv)
