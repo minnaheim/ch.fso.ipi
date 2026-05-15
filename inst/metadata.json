@@ -1,0 +1,90 @@
+{
+  "country": "ch",
+  "provider": "fso",
+  "dataset": "ipi",
+  "title": {
+    "en": "Import Price Index",
+    "de": "Importpreisindex",
+    "fr": "Indice des prix à l'importation",
+    "it": "Indice dei prezzi sull importazione"
+  },
+  "source_name": {
+    "en": "FSO",
+    "de": "BFS",
+    "fr": "OFS",
+    "it": "UST"
+  },
+  "source_url": "https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken/tabellen.assetdetail.8646711.html",
+  "dataset_frequency": "M",
+  "units": {
+    "all": {
+      "en": "Index",
+      "de": "Index",
+      "fr": "Indice",
+      "it": "Indice"
+    }
+  },
+  "aggregate": {
+    "all": "sum"
+  },
+  "dim_order": "idx_type",
+  "hierarchy": {
+    "idx_type": {
+      "idx_1963": {},
+      "idx_1993": {},
+      "idx_2003": {},
+      "idx_2010": {},
+      "idx_2015": {},
+      "idx_2020": {}
+    }
+  },
+  "labels": {
+    "dimnames": {
+      "idx_type": {
+        "en": "Index",
+        "de": "Index",
+        "fr": "Indice",
+        "it": "Indice"
+      }
+    },
+    "idx_type": {
+      "idx_1963": {
+        "en": "Import price index (1963) (IPI)",
+        "de": "Importpreisindex (1963) (IPI)",
+        "fr": "Indice des prix à l'importation (1963) (IPI)",
+        "it": "Indice dei prezzi sull importazione (1963) (IPI)"
+      },
+      "idx_1993": {
+        "en": "Import price index (1993) (IPI)",
+        "de": "Importpreisindex (1993) (IPI)",
+        "fr": "Indice des prix à l'importation (1993) (IPI)",
+        "it": "Indice dei prezzi sull importazione (1993) (IPI)"
+      },
+      "idx_2003": {
+        "en": "Import price index (2003) (IPI)",
+        "de": "Importpreisindex (2003) (IPI)",
+        "fr": "Indice des prix à l'importation (2003) (IPI)",
+        "it": "Indice dei prezzi sull importazione (2003) (IPI)"
+      },
+      "idx_2010": {
+        "en": "Import price index (2010) (IPI)",
+        "de": "Importpreisindex (2010) (IPI)",
+        "fr": "Indice des prix à l'importation (2010) (IPI)",
+        "it": "Indice dei prezzi sull importazione (2010) (IPI)"
+      },
+      "idx_2015": {
+        "en": "Import price index (2015) (IPI)",
+        "de": "Importpreisindex (2015) (IPI)",
+        "fr": "Indice des prix à l'importation (2015) (IPI)",
+        "it": "Indice dei prezzi sull importazione (2015) (IPI)"
+      },
+      "idx_2020": {
+        "en": "Import price index (2020) (IPI)",
+        "de": "Importpreisindex (2020) (IPI)",
+        "fr": "Indice des prix à l'importation (2020) (IPI)",
+        "it": "Indice dei prezzi sull importazione (2020) (IPI)"
+      }
+    }
+  },
+  "update_checksum": "e733ce849d07795c6d0da33e95df568729c9f92e5c6469a562f907e22c2a85ce"
+}

@@ -10,13 +10,13 @@
 process_data <- function(key = key) {
   set_config(api_key = key)
 
-  keys <- read_dataset_keys("ch.fso.indpau")
-  tsl <- read_ts(keys)
+  keys <- read_dataset_keys("ch.fso.ipi")
+  tsl <- read_ts(keys,ignore_missing=TRUE)
 
   out_paths <- lapply(names(tsl), function(k) {
     ts_obj <- tsl[[k]]
     # remove prefix so it matches with current data
-    k <- sub("^ch\\.fso\\.indpau\\.", "", k)
+    k <- sub("^ch\\.fso\\.ipi\\.", "", k)
     print(k)
 
     output_path <- file.path("data-raw", "csv", paste0(k, ".csv"))
@@ -42,4 +42,3 @@ process_data <- function(key = key) {
   invisible(unlist(out_paths))
 }
 
-# try it out here

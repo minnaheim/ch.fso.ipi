@@ -8,53 +8,96 @@
 
 # Dataset identity (required)
 # These form the first three segments of every key
-country: ""   # ISO 3166-1 alpha-2 code (e.g., "ch", "de", "us")
-provider: ""  # short identifier (e.g., "adecco", "seco")
-dataset: ""   # short identifier (e.g., "sjmi", "gdp")
+country: "ch"
+provider: "fso"
+dataset: "ipi"
 
 # Dataset title (required)
-# At minimum, provide English. Add other languages as needed.
 title:
-  en: ""
-  # de: ""
-  # fr: ""
+  en: Import Price Index
+  de: Importpreisindex
+  fr: Indice des prix à l'importation
+  it: Indice dei prezzi sull importazione
 
 # Data source name (required)
 source_name:
-  en: ""
-  # de: ""
+  en: FSO
+  de: BFS
+  fr: OFS
+  it: UST
 
 # URL to original data source (required)
-source_url: "https://"
+source_url: "https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken/tabellen.assetdetail.8646711.html"
 
 # Data frequency (required)
 # D = daily, W = weekly, M = monthly, Q = quarterly, Y = yearly, I = irregular
 dataset_frequency: "M"
 
 # Units of measurement
-# Use "all" if uniform across variables, or specify per variable key
 units:
   all:
-    en: ""
+    en: Index
+    de: Index
+    fr: Indice
+    it: Indice
 
 # Aggregation method for temporal aggregation
-# Valid values: mean, sum, last, first
 aggregate:
-  all: "mean"
+  all: "sum"
 
 # Dimension order (left to right in the key, after country.provider.dataset)
-dim_order: []
+dim_order:
+  - idx_type
 
 # Hierarchical structure of dimensions
-# Nest dimensions according to your key structure
-hierarchy: {}
+hierarchy:
+  idx_type:
+    idx_1963: ~
+    idx_1993: ~
+    idx_2003: ~
+    idx_2010: ~
+    idx_2015: ~
+    idx_2020: ~
 
 # Human-readable labels for dimensions and their values
-# dimnames: labels for dimension names
-# <dimension_name>: labels for values within that dimension
 labels:
-  dimnames: {}
-
+  dimnames:
+    idx_type:
+      en: Index
+      de: Index
+      fr: Indice
+      it: Indice
+  idx_type:
+    idx_1963:
+      en: Import price index (1963) (IPI)
+      de: Importpreisindex (1963) (IPI)
+      fr: Indice des prix à l'importation (1963) (IPI)
+      it: Indice dei prezzi sull importazione (1963) (IPI)
+    idx_1993:
+      en: Import price index (1993) (IPI)
+      de: Importpreisindex (1993) (IPI)
+      fr: Indice des prix à l'importation (1993) (IPI)
+      it: Indice dei prezzi sull importazione (1993) (IPI)
+    idx_2003:
+      en: Import price index (2003) (IPI)
+      de: Importpreisindex (2003) (IPI)
+      fr: Indice des prix à l'importation (2003) (IPI)
+      it: Indice dei prezzi sull importazione (2003) (IPI)
+    idx_2010:
+      en: Import price index (2010) (IPI)
+      de: Importpreisindex (2010) (IPI)
+      fr: Indice des prix à l'importation (2010) (IPI)
+      it: Indice dei prezzi sull importazione (2010) (IPI)
+    idx_2015:
+      en: Import price index (2015) (IPI)
+      de: Importpreisindex (2015) (IPI)
+      fr: Indice des prix à l'importation (2015) (IPI)
+      it: Indice dei prezzi sull importazione (2015) (IPI)
+    idx_2020:
+      en: Import price index (2020) (IPI)
+      de: Importpreisindex (2020) (IPI)
+      fr: Indice des prix à l'importation (2020) (IPI)
+      it: Indice dei prezzi sull importazione (2020) (IPI)
 
 # update checksum is empty in the beginning
 update_checksum: ""
